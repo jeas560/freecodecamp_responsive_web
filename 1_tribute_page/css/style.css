@@ -1,0 +1,23 @@
+#body{
+  background-color: lightgray;
+}
+#title{
+  text-align: center;
+}
+#img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image{
+  max-width: 100%;
+  margin: 0 auto;
+}
+a:link {
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+}
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
