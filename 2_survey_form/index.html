@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div id="main">
+    <h1 id="title">Son-Goku performance survey form</h1>
+    <p id="description">Thank you for taking the time to help us improve the page</p>
+  </div>
+  <form id="survey-form">
+    <div id="name-div">
+      <label id="name-label" for="name">Name</label><br>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    </div>
+    <div id="email-div">
+      <label id="email-label" for="email">Email</label><br>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+    </div>
+    <div id="age-div">
+      <label id="number-label" for="number">Age<span class="clue">(optional)</span></label><br>
+      <input type="number" id="number" placeholder="Enter your Age"  min="10" max ="99" required>
+    </div>
+    <div>
+      <label id ="type-label" for="type">Type</label><br>
+      <select name="type" id="dropdown">
+        <option value="option1">Option1</option>
+        <option value="option2">Option2</option>
+        <option value="option3">Option3</option>
+      </select>
+    </div>
+    <div>
+      <p>Would you recommend this page to a friend?</p>
+      <label>
+        <input name="radio-choose" type="radio" value ="definitely"> 
+        Definitely
+      </label>
+      <label>
+        <input name="radio-choose" type="radio" value ="maybe">
+        Maybe
+      </label>
+      <label>
+        <input name="radio-choose" type="radio" value ="not-sure">
+        Not sure
+      </label>
+    </div>
+    <div>
+      <p>Just Check</p>
+      <label>
+        <input name="checkbox-choose" type="checkbox" value ="checkbox1"> 
+        checkbox1
+      </label>
+      <label>
+        <input name="checkbox-choose" type="checkbox" value ="checkbox2">
+        checkbox2
+      </label>
+      <label>
+        <input name="checkbox-choose" type="checkbox" value ="checkbox3">
+        checkbox3
+      </label>
+    </div>
+    <div>
+      <p>Comments</p>
+      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  </form>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
