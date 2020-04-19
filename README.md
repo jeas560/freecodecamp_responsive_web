@@ -10,3 +10,5 @@ Live version: [here](https://raw.githack.com/jeas560/freecodecamp_responsive_web
 ## Survey Form
 
 Project assignment: [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
+
+Live version: [here](https://raw.githack.com/jeas560/freecodecamp_responsive_web/master/2_survey_form/index.html)
