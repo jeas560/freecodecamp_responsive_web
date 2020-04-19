@@ -4,7 +4,10 @@
 	--color-white: #f3f3f3;
 	--color-darkblue: rgb(21, 0, 97);
 	--color-darkblue-alpha: rgba(21, 0, 97, 0.4);
-	--color-orange: #ff6117;
+	--color-orange: linear-gradient( 
+		90deg,
+		rgb(252, 206, 0), 
+		#ff6117 );
 }
 *,
 *::before,
@@ -31,9 +34,9 @@ body::before {
 	width: 100%;
 	z-index: -1;
 	background: linear-gradient( 
-		270deg,
-		rgb(21, 0, 97), 
-		rgb(165, 1, 151) );
+		90deg,
+		rgb(165, 1, 151),
+		rgb(21, 0, 97) );
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
