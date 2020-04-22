@@ -163,11 +163,11 @@ nav > ul {
 }
 
 
-#features {
+#roles {
   margin-top: 30px;
 }
 
-#features .icon {
+#roles .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,17 +175,17 @@ nav > ul {
   width: 20vw;
 }
 
-#features .icon .role_icon {
+#roles .icon .role_icon {
   width: 2vw;
 }
 
 @media (max-width: 550px) {
-  #features .icon {
+  #roles .icon {
     display: none;
   }
 }
 
-#features .desc {
+#roles .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,7 +195,7 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .desc {
+  #roles .desc {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -204,8 +204,92 @@ nav > ul {
 }
 
 @media (max-width: 650px) {
-  #features {
+  #roles {
     margin-top: 0;
+  }
+}
+
+#add_information {
+  margin-top: 50px;
+}
+
+#add_information li {
+  padding: 5px;
+}
+
+
+#relaxation {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#relaxation > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1a20f;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: #ce0d0d;
+  color: rgb(238, 238, 238);
+  transition: background-color 0.6s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
 
