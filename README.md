@@ -24,3 +24,9 @@ Live version: [here](https://raw.githack.com/jeas560/freecodecamp_responsive_web
 Project assignment: [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
 Live version: [here](https://raw.githack.com/jeas560/freecodecamp_responsive_web/master/4_technical_documentation/index.html)
+
+## Personal-portfolio Webpage
+
+Project assignment: [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+
+Live version: [here](https://raw.githack.com/jeas560/freecodecamp_responsive_web/master/5_personal_portfolio/index.html)
